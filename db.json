@@ -1,14 +1,72 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"register": [
+		{ "ClientId": "198721120730-7C94DEC517365045CF8F06D25B5D6B8B", "UserId": "52174886499926815-C631933CC1B9AB87FBF46D3BF31280BC" }
+	], 
+
+	"channel": [
+		{
+			"UserId": "52174886499926815-C631933CC1B9AB87FBF46D3BF31280BC",
+			"ChannelId": 1234, "ChannelNames": ["ATV", "atv", "Atv", "aTV"], 
+			"ChannelLogo": "https://epgimg.vstlsrv.com/service/13175625530487678006.png"
+		} 
+	],
+
+	"program": [
+		{ 
+			"TVProgram": [ 
+				{ 
+					"UserId": "52174886499926815-C631933CC1B9AB87FBF46D3BF31280BC", 
+					"ChannelId": 1234,
+					"ProgramId": 123456754,
+					"Title": "Big Bang Theory",
+					"EpisodeTitle": "Fascinating News",
+					"Description": "Something about show",
+					"Language": "TUR",
+					"ProgramStart": "2021-04-30T14:20",
+					"ProgramEnd": "2021-04-30T14:40",
+					"Genre": "Comedy",
+					"EventPoster": "https://epgimg.vstlsrv.com/programme/13175625530487678006.png",
+					"Cast": [
+						["Yuri Burak", "director"], 
+                        ["Frank Mirbach", "director"],
+                        ["Marek Voegele", "director"] ] 
+				},
+				{
+					"UserId": "52174886499926815-C631933CC1B9AB87FBF46D3BF31280BC",
+					"ChannelId": 1234,
+					"ProgramId": 123456758,
+					"Title": "Big Bang Theory",
+					"EpisodeTitle": "Fascinating News",
+					"Description": "Something about show",
+					"Language": "TUR",
+					"ProgramStart": "2021-04-30T14:40",
+					"ProgramEnd": "2021-04-30T15:20",
+					"Genre": "Comedy",
+					"EventPoster": "https://epgimg.vstlsrv.com/programme/13175625530487678006.png",
+					"Cast": [
+						["Yuri Burak", "director"], 
+                        ["Frank Mirbach", "director"], 
+                        ["Marek Voegele", "director"] ]
+				}, 
+
+             {
+             	"UserId": "52174886499926815-C631933CC1B9AB87FBF46D3BF31280BC", 
+                "ChannelId": 1235, 
+                "ProgramId": 123456755, 
+                "Title": "Big Bang Theory", 
+                "EpisodeTitle": "Fascinating News", 
+                "Description": "Something about show", 
+                "Language": "TUR", 
+                "ProgramStart": "2021-04-30T14:20", 
+                "ProgramEnd": "2021-04-30T15:20", 
+                "Genre": "Comedy", 
+                "EventPoster": "https://epgimg.vstlsrv.com/programme/13175625530487678006.png", 
+                "Cast": [ 
+                	["Yuri Burak", "director"], 
+                    ["Frank Mirbach", "director"], 
+                    ["Marek Voegele", "director"] ] 
+               },
+           ]
+		}
+	]
 }
