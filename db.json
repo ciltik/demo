@@ -3,15 +3,15 @@
 		{ "ClientId": "198721120730-7C94DEC517365045CF8F06D25B5D6B8B", "UserId": "52174886499926815-C631933CC1B9AB87FBF46D3BF31280BC" }
 	, 
 
-	"channel": [
+	"channel":
 		{
 			"UserId": "52174886499926815-C631933CC1B9AB87FBF46D3BF31280BC",
 			"ChannelId": 1234, "ChannelNames": ["ATV", "atv", "Atv", "aTV"], 
 			"ChannelLogo": "https://epgimg.vstlsrv.com/service/13175625530487678006.png"
 		} 
-	],
+	,
 
-	"program": [
+	"program":
 		{ 
 			"TVProgram": [ 
 				{ 
@@ -67,5 +67,4 @@
 				}
 			]
 		}
-	]
 }
